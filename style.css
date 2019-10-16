@@ -157,7 +157,7 @@ body,html{
 /*  Styles for pages    */
 #pages__site-map a{text-decoration: none;}
 #pages__site-map p{margin: 0rem; margin-bottom: .5rem;}
-
+#privacy__template__link {color:lightgreen;}
 
 #pages__privacy{ 
     margin: 0 auto;
