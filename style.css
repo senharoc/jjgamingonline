@@ -150,7 +150,25 @@ body,html{
 }
 
 
-
+#click_to_see_more{
+    margin-top: 2rem;
+    color: white;
+    background-color: red;
+    min-height: 231px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    flex-wrap: nowrap;
+    width: 95%;
+    max-width: 746px;
+}
+#click_to_see_more button{
+    width: 100%;
+    height: 100%;
+}
+.hidden{
+    display: none;
+}
 
 
 

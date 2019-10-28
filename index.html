@@ -5,29 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width= device-width, initial-scale= 1.0, shrink-to-fit= no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>JJGamingOnline</title>
     <meta name="title" content="JJGamingOnline - Online Gaming Channel">
     <meta name="description"
-        content="Check out JJGamingOnline for Fortnite gameplay based mostly on an alternative style trending YouTube style.">
+        content="Check out JJGamingOnline for Fortnite gameplay based mostly on a trending alternative YouTube style.">
     <meta name="keywords" content="Gaming, Online, Fortnite, Playstation, Gameplay">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
     <meta name="revisit-after" content="5 days">
     <meta name="author" content="https://senharoc.com/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="JJGamingOnline">
-    <meta property="og:description"
-        content="Check out JJGamingOnline for Fortnite gameplay based mostly on an alternative style trending YouTube style.">
-    <meta property="og:url" content="https://jjgamingonline.com">
-    <meta property="og:site_name" content="JJGamingOnline">
-    <meta property="og:image" content="">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="JJGamingOnline - Online Gaming Channel">
-    <meta name="twitter:description"
-        content="Check out JJGamingOnline for Fortnite gameplay based mostly on an alternative style trending YouTube style.">
-    <meta name="twitter:site" content="@jjgamingonline">
-    <meta name="twitter:domain" content="https://twitter.com/jjgamingonline/">
-    <meta name="twitter:image:src" content="">
+
     <link rel="stylesheet" type="text/css" href="style.css">
     </link>
     <link rel="icon" type="image/png" href="favicon.png">
@@ -72,7 +60,7 @@
             </a>
         </div>
         <!--Burger Menu-->
-        <div onclick="show_hide()" class="burger" id="burger">
+        <div class="burger" id="burger">
             <a href="index.html" aria-label="home icon">
                 <svg class="homeIcon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <title>Home</title>
@@ -93,6 +81,62 @@
 
 
 
+
+
+
+
+
+        <!--break point - new item-->
+        <div class="container-resource">
+            <div class="display-video">
+                <!--embed youtube-->
+                <iframe title="1000 View Special" width="560" height="315"
+                    src="https://www.youtube.com/embed/TZxtm_48TAE" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="resource_description">
+                <!--Description for SEO-->
+                <h1>1000 View Special</h1>
+                <p>FORTNITE 1000 view special. Thanks for the views and all the support to help build my channel. Extra
+                    big thanks for my subscribers.
+                </p>
+            </div>
+        </div>
+
+        <!--break point - new item-->
+        <div class="container-resource">
+            <div class="display-video">
+                <!--embed youtube-->
+                <iframe title="Leave no man behind" width="560" height="315"
+                    src="https://www.youtube.com/embed/BDQn4kiP3dk" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="resource_description">
+                <!--Description for SEO-->
+                <h1>Leave no man behind</h1>
+                <p>FORTNITE On a mission to save Fearless stranded at the lighthouse 🎮
+                </p>
+            </div>
+        </div>
+
+        <!--break point - new item-->
+        <div class="container-resource">
+            <div class="display-video">
+                <!--embed youtube-->
+                <iframe title="YOUTUBE oh baby youre back" width="560" height="315"
+                    src="https://www.youtube.com/embed/H1e3PP1G45U" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="resource_description">
+                <!--Description for SEO-->
+                <h1>Oh Baby You're Back</h1>
+                <p>FORTNITE returns, 10 kill win and the return of my favourite pump action shotgun.
+                </p>
+            </div>
+        </div>
 
         <!--break point - new item-->
         <div class="container-resource">
@@ -218,8 +262,22 @@
             </div>
         </div>
 
+
+
+
+
+<!------------------------------------------------------>
+        <!--CLICK TO SEE MORE-->
+        <button id="click_to_see_more" onclick="clicked()">Click to see more</button>
+        <!------------------------------------------------------>
+        <!--to add items to click more list, then the class of hidden needs to be included-->
+
+
+
+
+
         <!--break point - new item-->
-        <div class="container-resource">
+        <div class="container-resource hidden">
             <div class="display-video">
                 <!--embed youtube-->
                 <iframe title="YOUTUBE Lasered by random" width="560" height="315"
@@ -238,7 +296,7 @@
         </div>
 
         <!--break point - new item-->
-        <div class="container-resource">
+        <div class="container-resource hidden">
             <div class="display-video">
                 <!--embed youtube-->
                 <iframe title="YOUTUBE Crazy antics in arena" width="560" height="315"
@@ -257,7 +315,7 @@
         </div>
 
         <!--break point - new item-->
-        <div class="container-resource">
+        <div class="container-resource hidden">
             <div class="display-video">
                 <!--embed youtube-->
                 <iframe title="YOUTUBE Revive me mummy" width="560" height="315"
@@ -274,7 +332,7 @@
         </div>
 
         <!--break point - new item-->
-        <div class="container-resource">
+        <div class="container-resource hidden">
             <div class="display-video">
                 <!--embed youtube-->
                 <iframe title="YOUTUBE Denyed at the end" width="560" height="315"
@@ -290,6 +348,12 @@
                 </p>
             </div>
         </div>
+
+
+
+
+
+
 
 
 
@@ -316,23 +380,20 @@
 
 
 
+
+    <!--this script will run when CLICK TO SEE MORE is executed
+The items with class 'hidden' will be shown
+the 'click more' box will be display=none-->
     <script>
-        function show_hide() {
-            var click = document.getElementById("container__about");
-            if (click.style.display === "none") {
-                click.style.display = "block";
+        function clicked() {
+            var butn = document.getElementById('click_to_see_more');
+            var all = document.getElementsByClassName('hidden');
+            for (var i = 0; i < all.length; i++) {
+                all[i].style.display = 'inline-flex';
             }
-            else {
-                click.style.display = "none";
-            }
+            butn.style.display = "none";
         }
     </script>
-
-
-
-
-
-
 </body>
 
 </html>
